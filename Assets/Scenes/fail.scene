@@ -1,0 +1,59 @@
+{
+  "__guid": "3a83ed46-14d1-4cfd-8330-ff2e512e57d3",
+  "GameObjects": [
+    {
+      "__guid": "f2cd12fb-1e70-4fa5-8c57-a0d67b47f166",
+      "Name": "Screen",
+      "Position": "149.995,149.995,-212.125",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "e9208d9b-212a-40f5-83db-1927941fcc1f",
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ZIndex": 100
+        },
+        {
+          "__type": "FailUI",
+          "__guid": "9e1f3cc5-b488-4770-92af-8f5dec7c50b5",
+          "MyStringValue": "You failed! (Press \u0022Jump\u0022 for restart)"
+        },
+        {
+          "__type": "FailInput",
+          "__guid": "0ef8c147-c1c7-452a-9707-c5f611778cb0",
+          "level": "scenes/level1.scene"
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "Lerping": true,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "fail",
+  "Description": "",
+  "LastSaved": "2024-04-19T16:24:49.9393773\u002B05:00",
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}

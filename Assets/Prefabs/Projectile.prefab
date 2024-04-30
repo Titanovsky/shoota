@@ -1,0 +1,40 @@
+{
+  "RootObject": {
+    "__guid": "ec5d1caf-cfbe-468b-9d78-8ab062d684be",
+    "Name": "projectile",
+    "Scale": "0.04063684,0.04063684,0.04063684",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "6af48474-b368-4870-ac07-bfb40556ca20",
+        "BodyGroups": 18446744073709551615,
+        "Model": "models/dev/sphere.vmdl",
+        "RenderType": "On",
+        "Tint": "1,0,0,1"
+      },
+      {
+        "__type": "Sandbox.SphereCollider",
+        "__guid": "98684ae3-68b6-4f1d-a3d2-2948499df959",
+        "Center": "0,0,0",
+        "IsTrigger": true,
+        "Radius": 34.00002,
+        "Static": false
+      },
+      {
+        "__type": "Projectile",
+        "__guid": "25687661-4f13-44b5-b94b-6c663d9ad9b2",
+        "DelayForDie": 1.75,
+        "MoveSpeed": 20
+      }
+    ],
+    "Children": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}

@@ -1,0 +1,83 @@
+{
+  "RootObject": {
+    "__guid": "b65ac313-0585-4583-848c-e25e87aa5500",
+    "Name": "enemy",
+    "Scale": "0.3132006,0.3132006,0.3132006",
+    "Tags": "enemy",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "Components": [
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "ae946535-9093-4e60-b77c-9b4ac43744f4",
+        "BodyGroups": 18446744073709551615,
+        "Model": "models/dev/box.vmdl",
+        "RenderType": "On",
+        "Tint": "0.12478,0.95814,0.93036,1"
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "894f573d-1357-439a-933d-dbf820469b06",
+        "Center": "0,0,0",
+        "IsTrigger": false,
+        "Scale": "50,50,50",
+        "Static": false
+      },
+      {
+        "__type": "Enemy",
+        "__guid": "5939777b-9a75-47e7-b066-3cf0dfdd6cbe",
+        "MoveSpeed": 1.4,
+        "ParticleForDie": {
+          "_type": "gameobject",
+          "prefab": "prefabs/particle_for_enemy.prefab"
+        }
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "12f53812-a9a7-4b4b-907c-3a68b39f79a1",
+        "Name": "Eye Right",
+        "Position": "25.68587,-11.54808,15.48816",
+        "Rotation": "-0.000000005355105,0.1830127,0.7071069,0.6830129",
+        "Scale": "0.1608413,0.1608413,0.1608413",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "9fe95572-df81-4a81-b625-32f4b4e830ac",
+            "BodyGroups": 18446744073709551615,
+            "Model": "models/dev/box.vmdl",
+            "RenderType": "Off",
+            "Tint": "0.55349,0.00772,0.00772,1"
+          }
+        ]
+      },
+      {
+        "__guid": "a8a51b19-4376-4761-ad04-4058923fc79a",
+        "Name": "Eye Left",
+        "Position": "25.59779,12.04083,15.15959",
+        "Rotation": "0.1830128,-0.00000002235174,0.6830128,0.7071069",
+        "Scale": "0.1608413,0.1608413,0.1608413",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "6e7020e7-7129-46de-a33c-52886d003575",
+            "BodyGroups": 18446744073709551615,
+            "Model": "models/dev/box.vmdl",
+            "RenderType": "Off",
+            "Tint": "0.55349,0.00772,0.00772,1"
+          }
+        ]
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}

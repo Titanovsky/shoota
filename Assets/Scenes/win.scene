@@ -1,0 +1,54 @@
+{
+  "__guid": "e4d04756-2193-42e8-97cb-7965b577e33e",
+  "GameObjects": [
+    {
+      "__guid": "29bd24f3-1bd4-47d4-99bb-bea40534dc6b",
+      "Name": "Screen",
+      "Position": "149.995,149.995,-212.125",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "09800d45-072a-46e8-bd78-8af0072022fd",
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ZIndex": 100
+        },
+        {
+          "__type": "WinUI",
+          "__guid": "6bd8f267-05f3-4f06-ae6c-ac4c3518964b",
+          "MyStringValue": "You won!"
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "Lerping": true,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "win",
+  "Description": "",
+  "LastSaved": "2024-04-19T17:43:10.4311997\u002B05:00",
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}
